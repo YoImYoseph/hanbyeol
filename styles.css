@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: gainsboro;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    font-family: 'Megrim', cursive;
+}
+
+/* @font-face {
+    font-family: "Pleidaian";
+    src: url("font/Pleiadian.otf");
+} */
+
+/* @font-face {
+    font-family: "Snake Bite";
+    src: url("font/Snakebite-Regular.ttf");
+} */
+
+/* #videobcg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+} */
+
+body {
+    background-image: url("img/bground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo > img {
+    margin: 2% 0 0 0;
+    width: 14rem;
+    height: auto;
+}
+
+#MyClockDisplay {
+    font-size: 1.2rem;
+    padding-bottom: 3%;
+    cursor: default;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    text-align: right;
+    margin-top: 100px;
+}
+
+.wrap {
+    width: 50%;
+}
+
+.wrap > ul {
+    transform: translateX(5%);
+    padding-top: 2%;
+    font-size: 1.2rem;
+}
+
+.wrap > ul > li {
+    text-decoration: none;
+    list-style: none;
+    /* border: solid 5px white; */
+    margin: 1%;
+}
+
+.wrap > ul > li > a {
+    text-decoration: none;
+    color: gainsboro;
+    padding: 0 3px 0 3px;
+}
+
+.wrap > ul > li > a:visited {
+    text-decoration: none;
+}
+
+.wrap > ul > li > a:hover {
+    text-decoration: none;
+    background-color: blue;
+}
+
+.wrap > ul > li > a:focus {
+    text-decoration: none;
+}
+
+.wrap > ul > li > a:hover, a:active {
+    text-decoration: none;
+}
+
+.clock{
+    font-size: 40px;
+}
+
+.icons {
+    font-size: 1.4rem;
+    margin-top: 2.5%;
+    width: 50%;
+    transform: translateX(5%);
+    color: gainsboro;
+}
+
+.icons > .fa-instagram-square {
+    opacity: 0.6;
+}
+
+.icons > .fa-instagram-square:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.icons > .fa-facebook-square {
+    opacity: 0.6;
+}
+
+.icons > .fa-facebook-square:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.icons > .fa-app-store-ios {
+    opacity: 0.6;
+}
+
+.icons > .fa-app-store-ios:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+/* main > .wrap > .menu > .submenu:hover {
+    background-color: black;    
+} */
+
+
+/* #id > .top > p {
+    display: block;
+} */
